@@ -1,1 +1,1 @@
-Prottype for player movement.
+Prototype for player movement.
