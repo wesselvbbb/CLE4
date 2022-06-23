@@ -516,7 +516,7 @@ function hmrAcceptRun(bundle, id) {
 },{}],"edeGs":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _pixiJs = require("pixi.js");
-var _shark = require("./Shark");
+var _player = require("./Player");
 var _sharkPng = require("./images/shark.png");
 var _sharkPngDefault = parcelHelpers.interopDefault(_sharkPng);
 var _bubblePng = require("./images/bubble.png");
@@ -537,15 +537,15 @@ class Game {
         );
     }
     loadCompleted() {
-        let shark = new _shark.Shark(this.loader.resources["sharkTexture"].texture);
-        this.pixi.stage.addChild(shark);
-        this.pixi.ticker.add((delta)=>shark.update()
+        let player = new _player.Player(this.loader.resources["sharkTexture"].texture);
+        this.pixi.stage.addChild(player);
+        this.pixi.ticker.add((delta)=>player.update()
         );
     }
 }
 new Game;
 
-},{"pixi.js":"dsYej","./Shark":"8upe1","./images/shark.png":"7HgQx","./images/bubble.png":"iMP3P","./images/water.jpg":"jj9Eg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dsYej":[function(require,module,exports) {
+},{"pixi.js":"dsYej","./Player":"8YLWx","./images/shark.png":"7HgQx","./images/bubble.png":"iMP3P","./images/water.jpg":"jj9Eg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dsYej":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "utils", ()=>_utils
@@ -37060,13 +37060,13 @@ function __extends(d, b) {
     return AnimatedSprite1;
 }(_sprite.Sprite);
 
-},{"@pixi/core":"7PEF8","@pixi/sprite":"9mbxh","@pixi/ticker":"8ekG7","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8upe1":[function(require,module,exports) {
+},{"@pixi/core":"7PEF8","@pixi/sprite":"9mbxh","@pixi/ticker":"8ekG7","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8YLWx":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "Shark", ()=>Shark
+parcelHelpers.export(exports, "Player", ()=>Player
 );
 var _pixiJs = require("pixi.js");
-class Shark extends _pixiJs.Sprite {
+class Player extends _pixiJs.Sprite {
     xspeed = 0;
     yspeed = 0;
     constructor(texture){
