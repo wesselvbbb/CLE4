@@ -1,1 +1,1 @@
-[# Prototype for evolution of buildings]
+Prototype for evolution of buildings
