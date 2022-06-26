@@ -34,8 +34,8 @@ Due to the pollution there is a lot of smog and extreme weather in the city. Col
         
 ## Credits:
 Game made by 4 Creative Media & Gaming Technologies students of the Rotterdam University of Applied Sciences. <br>
-<a href="https://github.com/Isissss">Isis Ton</a> <br>
-<a href="https://github.com/PimMiii">Pim van Milt</a> <br>
-<a href="https://github.com/RadiazOm">Jeffrey van Otterloo</a> <br>
-<a href="https://github.com/wesselvbbb1">Wessel van Beek</a> <br>
+<a href="https://github.com/Isissss">Isis</a> <br>
+<a href="https://github.com/PimMiii">Pim</a> <br>
+<a href="https://github.com/RadiazOm">Jeffrey</a> <br>
+<a href="https://github.com/wesselvbbb1">Wessel</a> <br>
  
